@@ -27,10 +27,14 @@ data = json.loads(response.text)
 print(data["joke"])
 ```
 
+The script above connects to the API via the 'requests' libary to connect to the API hosting server, take the argument joke as a paramater, and outputs a json response according to the [randomly generated (from a source)] joke
+
 ## ✨ Features
 
 - Python
 - Flask
+- JSON
+- Requests
 
 ## 💁‍♀️ How to use
 
