@@ -1,16 +1,16 @@
 ---
 title: Flask
-description: A popular minimal server framework for Python
+description: An API to connect to via HTTP Requests to access jokes.
 tags:
   - python
   - flask
+  - jokes
+  - jokes api
 ---
 
 # Python Flask Example
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zUcpux)
+This is an API hosted on [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a JSON response according to the joke.
 
 ## ✨ Features
 
