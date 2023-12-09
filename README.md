@@ -14,7 +14,7 @@ This is an API hosted on [Flask](https://flask.palletsprojects.com/en/1.1.x/) ap
 
 To use this API, run the following example script using the requests libary and json libary:
 
-'''python
+''' python
 
 import requests, json
 
@@ -26,7 +26,6 @@ response = requests.get(url, params)
 data = json.loads(response.text)
 
 print(data["joke"])
-
 '''
 
 ## ✨ Features
