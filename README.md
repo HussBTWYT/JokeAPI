@@ -8,6 +8,10 @@ Tags:
   - jokes api
 ---
 
+# Package Installation
+
+- Install Python requirements `pip install -r requirements.txt`
+
 # API Usage
 
 This is an API hosted on [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a JSON response according to the [randomly generated] joke.
@@ -36,7 +40,7 @@ The script above connects to the API via the 'requests' libary to connect to the
 - JSON
 - Requests
 
-## 💁‍♀️ How to use
+## 💁‍♀️ Reminders for Packages
 
 - Install Python requirements `pip install -r requirements.txt`
-- Start the server for development `python3 main.py`
+
