@@ -1,3 +1,6 @@
+[![Python](https://img.shields.io/badge/Python-Flask-blue)](https://www.python.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Node.js-yellow)](https://nodejs.org/en/)
+
 ---
 Title: Flask
 Description: An API to connect to via HTTP Requests to access jokes.
