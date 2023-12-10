@@ -15,20 +15,20 @@ async function getJoke() {
   }
 }
 
-function tellJoke() {
+async function tellJoke() {
   const choice = readlineSync.question(
     'Hello! I am practicing to become a comedian, and I would like to tell you a joke! Would you like to hear one? (yes/no): '
   );
 
   if (choice.toLowerCase() === 'yes') {
     console.log('Okay!');
-    const joke = getJoke();
+    const joke = await getJoke();
     console.log(joke);
 
     while (true) {
       const again = readlineSync.question('Would you like to hear another one? (yes/no): ');
       if (again.toLowerCase() === 'yes') {
-        const newJoke = getJoke();
+        const newJoke = await getJoke();
         console.log(newJoke);
       } else if (again.toLowerCase() === 'no') {
         console.log('Okay! I hope you liked my previous joke though! Goodbye!');
