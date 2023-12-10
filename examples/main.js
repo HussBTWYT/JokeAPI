@@ -1,3 +1,5 @@
+// Connect to the API via JavaScript AND node.js
+
 const url = "https://hussbtwjokesapi.pythonanywhere.com/api/randomjoke";
 const params = "joke";
 
