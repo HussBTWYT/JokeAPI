@@ -65,6 +65,11 @@ The script above connects to the API via the 'requests' libary to connect to the
 - JSON
 - Requests
 
+## Soon to come ✨ Features
+
+- Ruby API Connection
+- Additional parameters and more customability to the joke itself, like the type of joke it is, that can be used e.g. with an input of let's say "GENERAL JOKE" and returning that type.
+
 ## 💁‍♀️ Reminders for Packages
 
 - Install Python requirements `pip install -r requirements.txt`
