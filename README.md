@@ -18,6 +18,8 @@ This is an API hosted on [Flask](https://flask.palletsprojects.com/en/1.1.x/) ap
 
 To use this API, run the following example script using the requests libary and json libary:
 
+Note that there are multiple use cases of programming languages that can be used here, and is up to you however PYTHON WILL BE THE MAIN, that is why there is a requirements.txt for python only.
+
 ```python
 import requests, json
 
