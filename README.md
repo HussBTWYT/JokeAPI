@@ -33,6 +33,17 @@ data = json.loads(response.text)
 print(data["joke"])
 ```
 
+```javascript
+const url = "https://hussbtwjokesapi.pythonanywhere.com/api/randomjoke";
+const params = "joke";
+
+fetch(`${url}?${params}`)
+  .then(response => response.json())
+  .then(data => console.log(data.joke))
+  .catch(error => console.error('Error:', error));
+```
+
+
 The script above connects to the API via the 'requests' libary to connect to the API hosting server, take the argument joke as a paramater, and outputs a json response according to the [randomly generated (from a source)] joke
 
 ## ✨ Features
