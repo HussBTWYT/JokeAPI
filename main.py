@@ -1,13 +1,10 @@
-from flask import Flask, jsonify
-import os
+import requests, json
 
-app = Flask(__name__)
+url = "https://hussbtwjokesapi.pythonanywhere.com/api/randomjoke"
+params = "joke"
 
+response = requests.get(url, params)
 
-@app.route('/')
-def index():
-    return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
+data = json.loads(response.text)
 
-
-if __name__ == '__main__':
-    app.run(debug=True, port=os.getenv("PORT", default=5000))
+print(data["joke"])
