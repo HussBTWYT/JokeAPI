@@ -33,13 +33,15 @@ data = json.loads(response.text)
 print(data["joke"])
 ```
 
-However, python isn't the only way to connect to our Joke API. You can use JavaScript [{node.js}](https://https://nodejs.org/en)
+However, python isn't the only way to connect to our Joke API. You can use JavaScript + [{node.js}](https://nodejs.org/en) to also run this program, with the same functionality as the script above.
 
-You can also run this code in JavaScript with node.js:
+To run it with JavaScript, use the following command:
 
 ```bash
 node main.js
 ```
+
+And to access main.js, you can use the following JavaScript code to connect to our API.
 
 ```javascript
 // main.js
