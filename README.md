@@ -33,7 +33,15 @@ data = json.loads(response.text)
 print(data["joke"])
 ```
 
+You can also run this code in JavaScript with node.js:
+
+```bash
+node main.js
+```
+
 ```javascript
+// main.js
+
 const url = "https://hussbtwjokesapi.pythonanywhere.com/api/randomjoke";
 const params = "joke";
 
